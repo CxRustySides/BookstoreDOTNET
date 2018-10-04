@@ -1,0 +1,128 @@
+2011-11-15 21:33:02,753 [pool-1-thread-1] (CxScanJob.java:89) INFO  - Packing project
+2011-11-15 21:33:04,333 [pool-1-thread-1] (CxScanJob.java:108) INFO  - Project name is "BookStore_NET_17584lines"
+2011-11-15 21:33:04,827 [pool-1-thread-1] (CxScanJob.java:258) INFO  - Check CLI version support: 1.2.5
+2011-11-15 21:33:04,855 [pool-1-thread-1] (CxScanJob.java:273) INFO  - Log in
+2011-11-15 21:33:04,875 [pool-1-thread-1] (CxScanJob.java:120) INFO  - Retrieving scan configurations
+2011-11-15 21:33:04,903 [pool-1-thread-1] (CxScanJob.java:141) INFO  - Request scan
+2011-11-15 21:33:04,909 [pool-1-thread-1] (CxScanJob.java:417) INFO  - isVisible to others flag: true
+2011-11-15 21:33:06,592 [pool-1-thread-1] (CxScanJob.java:474) TRACE - Project scan request response:RunScanResult(scanId:db0abea2-55a8-4b92-b95d-f690125d8ae8,projectId:32)
+2011-11-15 21:33:06,606 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ db0abea2-55a8-4b92-b95d-f690125d8ae8 | QUEUED | 0 | 0 |  | 0 |  |  | 2011-11-15 21:33:6 | 2013-11-15 21:33:6 | -1 |  | 32| 0 | 32 | 0 })
+2011-11-15 21:33:06,606 [pool-2-thread-1] (WaitScanCompletionJob.java:74) INFO  - Total scan worked: 0%
+2011-11-15 21:33:06,607 [pool-2-thread-1] (WaitScanCompletionJob.java:110) INFO  - Scan state: QUEUED
+2011-11-15 21:33:06,608 [pool-2-thread-1] (WaitScanCompletionJob.java:114) TRACE - QUEUED
+ (0%) 
+2011-11-15 21:34:07,464 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ db0abea2-55a8-4b92-b95d-f690125d8ae8 | WORKING | 43 | 19 | Optimizing internal representation, Stage 5 | 26 | Stage # 20 of 22 | Processing # 672 of 2496 | 2011-11-15 21:33:6 | 2013-11-15 21:33:6 | -1 | Stage # 20 of 22 | 32| 0 | 32 | 0 })
+2011-11-15 21:34:07,472 [pool-2-thread-1] (WaitScanCompletionJob.java:74) INFO  - Total scan worked: 43%
+2011-11-15 21:34:07,474 [pool-2-thread-1] (WaitScanCompletionJob.java:104) INFO  - Current stage:  "Optimizing internal representation, Stage 5" - Stage # 20 of 22
+2011-11-15 21:34:07,486 [pool-2-thread-1] (WaitScanCompletionJob.java:114) TRACE - WORKING "Optimizing internal representation, Stage 5"
+Stage # 20 of 22 (26%) Processing # 672 of 2496
+2011-11-15 21:35:07,195 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ db0abea2-55a8-4b92-b95d-f690125d8ae8 | WORKING | 90 | 20 | Querying | 81 | Running query: SlidingExpiration | Processing # 111 of 136 | 2011-11-15 21:33:6 | 2013-11-15 21:33:6 | -1 | SlidingExpiration | 32| 0 | 32 | 30 })
+2011-11-15 21:35:07,197 [pool-2-thread-1] (WaitScanCompletionJob.java:74) INFO  - Total scan worked: 90%
+2011-11-15 21:35:07,201 [pool-2-thread-1] (WaitScanCompletionJob.java:104) INFO  - Current stage:  "Querying" - Running query: SlidingExpiration
+2011-11-15 21:35:07,202 [pool-2-thread-1] (WaitScanCompletionJob.java:114) TRACE - WORKING "Querying"
+Running query: SlidingExpiration (81%) Processing # 111 of 136
+2011-11-15 21:36:07,356 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ db0abea2-55a8-4b92-b95d-f690125d8ae8 | FINISHED | 100 | 2147483647 |  | 0 | Finish saving results |  | 2011-11-15 21:33:6 | 2011-11-15 21:36:2 | -1 |  | 32| 30 | 32 | 30 })
+2011-11-15 21:36:07,357 [pool-2-thread-1] (WaitScanCompletionJob.java:74) INFO  - Total scan worked: 100%
+2011-11-15 21:36:07,358 [pool-2-thread-1] (WaitScanCompletionJob.java:108) INFO  - Current stage: Finish saving results
+2011-11-15 21:36:07,359 [pool-2-thread-1] (WaitScanCompletionJob.java:114) TRACE - FINISHED
+Finish saving results (0%) 
+2011-11-15 21:36:07,359 [pool-2-thread-1] (WaitScanCompletionJob.java:126) INFO  - Finish saving results
+2011-11-15 21:36:07,361 [pool-1-thread-1] (CxScanJob.java:172) INFO  - Retrieving results
+2011-11-15 21:36:11,175 [pool-1-thread-1] (CxScanJob.java:532) INFO  - Saving xml results to file [Q:\Projects\C#\BookStore.NET_17584lines\BookStore_NET_17584lines.xml]
+2011-12-01 00:21:21,247 [pool-1-thread-1] (CxScanJob.java:89) INFO  - Packing project
+2011-12-01 00:21:23,184 [pool-1-thread-1] (CxScanJob.java:108) INFO  - Project name is "BookStore_NET_17584lines"
+2011-12-01 00:21:24,121 [pool-1-thread-1] (CxScanJob.java:258) INFO  - Check CLI version support: 1.2.5
+2011-12-01 00:21:24,153 [pool-1-thread-1] (CxScanJob.java:273) INFO  - Log in
+2011-12-01 00:21:24,168 [pool-1-thread-1] (CxScanJob.java:120) INFO  - Retrieving scan configurations
+2011-12-01 00:21:24,215 [pool-1-thread-1] (CxScanJob.java:141) INFO  - Request scan
+2011-12-01 00:21:24,215 [pool-1-thread-1] (CxScanJob.java:417) INFO  - isVisible to others flag: true
+2011-12-01 00:21:25,262 [pool-1-thread-1] (CxScanJob.java:474) TRACE - Project scan request response:RunScanResult(scanId:44b05e57-4774-4d47-b1ef-2b8090b2197a,projectId:16)
+2011-12-01 00:21:25,277 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ 44b05e57-4774-4d47-b1ef-2b8090b2197a | QUEUED | 0 | 0 |  | 0 |  |  | 2011-11-30 14:14:5 | 2013-11-30 14:14:5 | -1 |  | 16| 0 | 16 | 0 })
+2011-12-01 00:21:25,293 [pool-2-thread-1] (WaitScanCompletionJob.java:74) INFO  - Total scan worked: 0%
+2011-12-01 00:21:25,293 [pool-2-thread-1] (WaitScanCompletionJob.java:110) INFO  - Scan state: QUEUED
+2011-12-01 00:21:25,293 [pool-2-thread-1] (WaitScanCompletionJob.java:114) TRACE - QUEUED
+ (0%) 
+2011-12-01 00:22:25,296 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ 44b05e57-4774-4d47-b1ef-2b8090b2197a | WORKING | 43 | 19 | Optimizing internal representation, Stage 5 | 50 | Stage # 20 of 22 | Processing # 1248 of 2496 | 2011-11-30 14:14:5 | 2013-11-30 14:14:5 | -1 | Stage # 20 of 22 | 16| 0 | 16 | 0 })
+2011-12-01 00:22:25,296 [pool-2-thread-1] (WaitScanCompletionJob.java:74) INFO  - Total scan worked: 43%
+2011-12-01 00:22:25,296 [pool-2-thread-1] (WaitScanCompletionJob.java:104) INFO  - Current stage:  "Optimizing internal representation, Stage 5" - Stage # 20 of 22
+2011-12-01 00:22:25,296 [pool-2-thread-1] (WaitScanCompletionJob.java:114) TRACE - WORKING "Optimizing internal representation, Stage 5"
+Stage # 20 of 22 (50%) Processing # 1248 of 2496
+2011-12-01 00:23:25,315 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ 44b05e57-4774-4d47-b1ef-2b8090b2197a | WORKING | 99 | 20 | null | 0 | Saving results... | null | 2011-11-30 14:14:5 | 2011-11-30 14:16:4 | -1 | Weak_Password_Authentication | 16| 0 | 16 | 16 })
+2011-12-01 00:23:25,315 [pool-2-thread-1] (WaitScanCompletionJob.java:74) INFO  - Total scan worked: 99%
+2011-12-01 00:23:25,315 [pool-2-thread-1] (WaitScanCompletionJob.java:108) INFO  - Current stage: Saving results...
+2011-12-01 00:23:25,315 [pool-2-thread-1] (WaitScanCompletionJob.java:114) TRACE - WORKING
+Saving results... (0%) 
+2011-12-01 00:24:25,303 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ 44b05e57-4774-4d47-b1ef-2b8090b2197a | FINISHED | 100 | 2147483647 |  | 0 | Finish saving results |  | 2011-11-30 14:14:5 | 2011-11-30 14:16:34 | -1 |  | 16| 16 | 16 | 16 })
+2011-12-01 00:24:25,303 [pool-2-thread-1] (WaitScanCompletionJob.java:74) INFO  - Total scan worked: 100%
+2011-12-01 00:24:25,303 [pool-2-thread-1] (WaitScanCompletionJob.java:108) INFO  - Current stage: Finish saving results
+2011-12-01 00:24:25,303 [pool-2-thread-1] (WaitScanCompletionJob.java:114) TRACE - FINISHED
+Finish saving results (0%) 
+2011-12-01 00:24:25,303 [pool-2-thread-1] (WaitScanCompletionJob.java:126) INFO  - Finish saving results
+2011-12-01 00:24:25,303 [pool-1-thread-1] (CxScanJob.java:172) INFO  - Retrieving results
+2011-12-01 00:24:29,878 [pool-1-thread-1] (CxScanJob.java:532) INFO  - Saving xml results to file [Q:\Projects\C#\BookStore.NET_17584lines\BookStore_NET_17584lines.xml]
+2011-12-04 02:25:23,343 [pool-1-thread-1] (CxScanJob.java:89) INFO  - Packing project
+2011-12-04 02:25:25,890 [pool-1-thread-1] (CxScanJob.java:108) INFO  - Project name is "BookStore_NET_17584lines"
+2011-12-04 02:25:26,437 [pool-1-thread-1] (CxScanJob.java:258) INFO  - Check CLI version support: 1.2.5
+2011-12-04 02:25:26,468 [pool-1-thread-1] (CxScanJob.java:273) INFO  - Log in
+2011-12-04 02:25:26,484 [pool-1-thread-1] (CxScanJob.java:120) INFO  - Retrieving scan configurations
+2011-12-04 02:25:26,531 [pool-1-thread-1] (CxScanJob.java:141) INFO  - Request scan
+2011-12-04 02:25:26,531 [pool-1-thread-1] (CxScanJob.java:417) INFO  - isVisible to others flag: true
+2011-12-04 02:25:27,781 [pool-1-thread-1] (CxScanJob.java:474) TRACE - Project scan request response:RunScanResult(scanId:c1a96e20-f5db-4cc5-875e-28162cd539c8,projectId:94)
+2011-12-04 02:25:27,781 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ c1a96e20-f5db-4cc5-875e-28162cd539c8 | QUEUED | 0 | 0 |  | 0 |  |  | 2011-12-4 2:25:27 | 2013-12-4 2:25:27 | -1 |  | 94| 0 | 94 | 0 })
+2011-12-04 02:25:27,796 [pool-2-thread-1] (WaitScanCompletionJob.java:74) INFO  - Total scan worked: 0%
+2011-12-04 02:25:27,812 [pool-2-thread-1] (WaitScanCompletionJob.java:110) INFO  - Scan state: QUEUED
+2011-12-04 02:25:27,812 [pool-2-thread-1] (WaitScanCompletionJob.java:114) TRACE - QUEUED
+ (0%) 
+2011-12-04 02:26:27,828 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ c1a96e20-f5db-4cc5-875e-28162cd539c8 | WORKING | 43 | 19 | Optimizing internal representation, Stage 5 | 50 | Stage # 20 of 22 | Processing # 1248 of 2496 | 2011-12-4 2:25:27 | 2013-12-4 2:25:27 | -1 | Stage # 20 of 22 | 94| 0 | 94 | 0 })
+2011-12-04 02:26:27,828 [pool-2-thread-1] (WaitScanCompletionJob.java:74) INFO  - Total scan worked: 43%
+2011-12-04 02:26:27,828 [pool-2-thread-1] (WaitScanCompletionJob.java:104) INFO  - Current stage:  "Optimizing internal representation, Stage 5" - Stage # 20 of 22
+2011-12-04 02:26:27,828 [pool-2-thread-1] (WaitScanCompletionJob.java:114) TRACE - WORKING "Optimizing internal representation, Stage 5"
+Stage # 20 of 22 (50%) Processing # 1248 of 2496
+2011-12-04 02:27:28,093 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ c1a96e20-f5db-4cc5-875e-28162cd539c8 | WORKING | 98 | 20 | Querying | 97 | Running query: DOM_XSRF | Processing # 133 of 136 | 2011-12-4 2:25:27 | 2013-12-4 2:25:27 | -1 | DOM_XSRF | 94| 0 | 94 | 93 })
+2011-12-04 02:27:28,093 [pool-2-thread-1] (WaitScanCompletionJob.java:74) INFO  - Total scan worked: 98%
+2011-12-04 02:27:28,093 [pool-2-thread-1] (WaitScanCompletionJob.java:104) INFO  - Current stage:  "Querying" - Running query: DOM_XSRF
+2011-12-04 02:27:28,093 [pool-2-thread-1] (WaitScanCompletionJob.java:114) TRACE - WORKING "Querying"
+Running query: DOM_XSRF (97%) Processing # 133 of 136
+2011-12-04 02:28:28,109 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ c1a96e20-f5db-4cc5-875e-28162cd539c8 | FINISHED | 100 | 2147483647 |  | 0 | Finish saving results |  | 2011-12-4 2:25:27 | 2011-12-4 2:28:12 | -1 |  | 94| 92 | 94 | 93 })
+2011-12-04 02:28:28,109 [pool-2-thread-1] (WaitScanCompletionJob.java:74) INFO  - Total scan worked: 100%
+2011-12-04 02:28:28,109 [pool-2-thread-1] (WaitScanCompletionJob.java:108) INFO  - Current stage: Finish saving results
+2011-12-04 02:28:28,109 [pool-2-thread-1] (WaitScanCompletionJob.java:114) TRACE - FINISHED
+Finish saving results (0%) 
+2011-12-04 02:28:28,109 [pool-2-thread-1] (WaitScanCompletionJob.java:126) INFO  - Finish saving results
+2011-12-04 02:28:28,109 [pool-1-thread-1] (CxScanJob.java:172) INFO  - Retrieving results
+2011-12-04 02:28:32,046 [pool-1-thread-1] (CxScanJob.java:532) INFO  - Saving xml results to file [Q:\Projects\C#\BookStore.NET_17584lines\BookStore_NET_17584lines.xml]
+2011-12-26 15:06:44,560 [pool-1-thread-1] (CxScanJob.java:87) INFO  - Packing project
+2011-12-26 15:06:46,232 [pool-1-thread-1] (CxScanJob.java:106) INFO  - Project name is "BookStore_NET_17584lines"
+2011-12-26 15:06:46,919 [pool-1-thread-1] (CxScanJob.java:273) INFO  - Check CLI version support: 1.2.7
+2011-12-26 15:06:46,966 [pool-1-thread-1] (CxScanJob.java:288) INFO  - Log in
+2011-12-26 15:06:46,982 [pool-1-thread-1] (CxScanJob.java:118) INFO  - Retrieving scan configurations
+2011-12-26 15:06:47,013 [pool-1-thread-1] (CxScanJob.java:139) INFO  - Request scan
+2011-12-26 15:06:47,029 [pool-1-thread-1] (CxScanJob.java:432) INFO  - isVisible to others flag: true
+2011-12-26 15:06:48,169 [pool-1-thread-1] (CxScanJob.java:489) TRACE - Project scan request response:RunScanResult(scanId:140a42c8-3e0b-4aaa-9c2c-45ccc8899608,projectId:14)
+2011-12-26 15:06:48,185 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ 140a42c8-3e0b-4aaa-9c2c-45ccc8899608 | QUEUED | 0 | 0 |  | 0 |  |  | 2011-12-26 4:54:49 | 2013-12-26 4:54:49 | -1 |  | 14| 0 | 14 | 0 })
+2011-12-26 15:06:48,185 [pool-2-thread-1] (WaitScanCompletionJob.java:74) INFO  - Total scan worked: 0%
+2011-12-26 15:06:48,185 [pool-2-thread-1] (WaitScanCompletionJob.java:110) INFO  - Scan state: QUEUED
+2011-12-26 15:06:48,185 [pool-2-thread-1] (WaitScanCompletionJob.java:114) TRACE - QUEUED
+ (0%) 
+2011-12-26 15:07:48,205 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ 140a42c8-3e0b-4aaa-9c2c-45ccc8899608 | WORKING | 38 | 17 | Optimizing internal representation, Stage 3 | 48 | Stage # 18 of 22 | Processing # 302 of 624 | 2011-12-26 4:54:49 | 2013-12-26 4:54:49 | -1 | Book_Store.Default.InitializeComponent | 14| 0 | 14 | 0 })
+2011-12-26 15:07:48,205 [pool-2-thread-1] (WaitScanCompletionJob.java:74) INFO  - Total scan worked: 38%
+2011-12-26 15:07:48,205 [pool-2-thread-1] (WaitScanCompletionJob.java:104) INFO  - Current stage:  "Optimizing internal representation, Stage 3" - Stage # 18 of 22
+2011-12-26 15:07:48,205 [pool-2-thread-1] (WaitScanCompletionJob.java:114) TRACE - WORKING "Optimizing internal representation, Stage 3"
+Stage # 18 of 22 (48%) Processing # 302 of 624
+2011-12-26 15:08:48,241 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ 140a42c8-3e0b-4aaa-9c2c-45ccc8899608 | WORKING | 63 | 20 | Querying | 27 | Running query: Second_Order_SQL_Injection | Processing # 37 of 135 | 2011-12-26 4:54:49 | 2013-12-26 4:54:49 | -1 | Second_Order_SQL_Injection | 14| 0 | 14 | 14 })
+2011-12-26 15:08:48,241 [pool-2-thread-1] (WaitScanCompletionJob.java:74) INFO  - Total scan worked: 63%
+2011-12-26 15:08:48,241 [pool-2-thread-1] (WaitScanCompletionJob.java:104) INFO  - Current stage:  "Querying" - Running query: Second_Order_SQL_Injection
+2011-12-26 15:08:48,241 [pool-2-thread-1] (WaitScanCompletionJob.java:114) TRACE - WORKING "Querying"
+Running query: Second_Order_SQL_Injection (27%) Processing # 37 of 135
+2011-12-26 15:09:48,245 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ 140a42c8-3e0b-4aaa-9c2c-45ccc8899608 | WORKING | 99 | 20 | null | 0 | Saving results... | null | 2011-12-26 4:54:49 | 2011-12-26 4:57:34 | -1 | Weak_Password_Authentication | 14| 0 | 14 | 14 })
+2011-12-26 15:09:48,245 [pool-2-thread-1] (WaitScanCompletionJob.java:74) INFO  - Total scan worked: 99%
+2011-12-26 15:09:48,245 [pool-2-thread-1] (WaitScanCompletionJob.java:108) INFO  - Current stage: Saving results...
+2011-12-26 15:09:48,245 [pool-2-thread-1] (WaitScanCompletionJob.java:114) TRACE - WORKING
+Saving results... (0%) 
+2011-12-26 15:10:48,249 [pool-2-thread-1] (WaitScanCompletionJob.java:62) TRACE - getScanStatus: GetStatusOfScanResult({ 140a42c8-3e0b-4aaa-9c2c-45ccc8899608 | FINISHED | 100 | 2147483647 |  | 0 | Finish saving results |  | 2011-12-26 4:54:49 | 2011-12-26 4:58:3 | -1 |  | 14| 14 | 14 | 14 })
+2011-12-26 15:10:48,249 [pool-2-thread-1] (WaitScanCompletionJob.java:74) INFO  - Total scan worked: 100%
+2011-12-26 15:10:48,249 [pool-2-thread-1] (WaitScanCompletionJob.java:108) INFO  - Current stage: Finish saving results
+2011-12-26 15:10:48,249 [pool-2-thread-1] (WaitScanCompletionJob.java:114) TRACE - FINISHED
+Finish saving results (0%) 
+2011-12-26 15:10:48,249 [pool-2-thread-1] (WaitScanCompletionJob.java:126) INFO  - Finish saving results
+2011-12-26 15:10:48,249 [pool-1-thread-1] (CxScanJob.java:170) INFO  - Retrieving results
